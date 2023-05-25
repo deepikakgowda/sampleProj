@@ -1,9 +1,11 @@
-function menu()
+function Menu()
 {
-    return <div><ul>
+    return (
+       <ul>
         <li>Home</li>
         <li>content</li>
         <li>contact us</li>
-    </ul></div>
+    </ul>
+    );
 }
-export default menu;
+export default Menu;

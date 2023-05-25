@@ -1,9 +1,9 @@
-function content()
+function Content()
 {
     const text = "typescript";
     if(text)
-    return <p> hello {text} </p>
-    return <p>hello</p>
+    return <p> hello {text} </p>;
+    return <p>hello</p>;
     
 }
-export default content;
+export default Content;
