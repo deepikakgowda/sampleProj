@@ -6,16 +6,14 @@ import Header from "./component/Header";
 import Menu from "./component/Menu";
 import Content from "./component/Content";
 import Footer from "./component/footer";
+import ListComponent from "./component/ListComponent";
 
 function App() {
   return (
     <div>
-      <Header></Header>
-      <Menu></Menu>
-      <Content></Content>
-      <Footer></Footer>
+      <Menu />
     </div>
-  )
+  );
 }
 
 export default App;
