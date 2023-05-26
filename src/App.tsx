@@ -12,7 +12,10 @@ import FavColor from "./component/FavColor";
 function App() {
   return (
     <div>
-      <ListComponent />
+      <ListComponent
+        heading={"City Lists"}
+        items={["kolkata", "Bangalore", "Delhi", "chennai", "mumbai"]}
+      ></ListComponent>
     </div>
   );
 }
