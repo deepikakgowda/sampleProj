@@ -7,11 +7,12 @@ import Menu from "./component/Menu";
 import Content from "./component/Content";
 import Footer from "./component/footer";
 import ListComponent from "./component/ListComponent";
+import FavColor from "./component/FavColor";
 
 function App() {
   return (
     <div>
-      <Menu />
+      <ListComponent />
     </div>
   );
 }
